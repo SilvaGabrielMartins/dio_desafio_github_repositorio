@@ -1,0 +1,22 @@
+* Download Git Windows*
+git-scm.com/download/win
+ 
+* Principais comandos do Git *
+git status
+git add
+git commit -m "Mensagem do commit"
+
+* Manipulando diretórios locais e remoto*
+git init -> Inicializa um repositório local
+git clone -> Clona um repositorio existente na sua máquina local
+git pull -> Puxa informações do servidor remoto para a máquina
+git push -> Empurra informações locais para o servidor
+
+* Chave SSH *
+ssh-keygen -t ed25519 -C "Troque por seu e-mail" -> Gera chave
+eval $(ssh-agent-s) -> Inicia SSH Agente
+ssh-add "Caminho da chave privada" -> Entrega a chave para o agente
+
+* Configurações *
+git config --global user.name"Seu nickname"
+git config --global user.email"Seu email"
